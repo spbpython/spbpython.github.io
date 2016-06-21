@@ -4,7 +4,7 @@
 
       <div class="section " id="section-first">
         <div class="intro">
-          <h1>SPb Python <br>Guru</h1>
+          <h1>SPb Python Guru</h1>
           <img src="./assets/logo.svg" alt="">
 
           <p>Сообщество Python-программистов Санкт-Петербурга.</p>
@@ -19,9 +19,9 @@
               <img class="meetup" target="_blank" src="./assets/networks/meetup.png" alt="">
             </a>
 
-            <p>
-              Расписание встреч на <a target="_blank" href="http://www.meetup.com/spbpython/">Meetup.com</a>
-            </p>
+            <!--<p>-->
+              <!--Расписание встреч на <a target="_blank" href="http://www.meetup.com/spbpython/">Meetup.com</a>-->
+            <!--</p>-->
           </div>
         </div>
       </div>
