@@ -1,0 +1,54 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    <meta charset=utf-8>
+    <title>{{ site.title }}</title>
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <!-- title -->
+    <title>{{ site.title }}</title>
+    <meta name=twitter:title content="{{ site.title }}">
+    <meta property=og:title content="{{ site.title }}">
+
+    <!-- description  -->
+    <meta name=description content="{{ site.description }}">
+    <meta name=twitter:description content="{{ site.description }}">
+    <meta property=og:description content="{{ site.description }}">
+
+    <!-- image -->
+    <meta name=twitter:image:src content=//spbpython.github.io/static/img/socialnetworks.jpg>
+    <meta property=og:image content=//spbpython.github.io/static/img/socialnetworks.jpg>
+    <link rel=image_src href=//spbpython.github.io/static/img/socialnetworks.jpg>
+
+    <!-- another meta -->
+    <meta property=og:type content=website>
+    <meta name=twitter:card content=summary>
+    <meta property=og:url
+          content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property=twitter:url
+          content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel=canonical href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <meta name=HandheldFriendly content=true>
+    <meta name=theme-color content=#212121>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,cyrillic" rel=stylesheet
+          type=text/css>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic" rel=stylesheet
+          type=text/css>
+
+
+    <link rel="stylesheet" href='{{ "/css/normalize.css" | prepend: site.baseurl }}'>
+    <link rel="stylesheet" href='{{ "/css/app.css" | prepend: site.baseurl }}'>
+    <link rel="stylesheet" href='{{ "/css/jquery.fullPage.css" | prepend: site.baseurl }}'>
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>

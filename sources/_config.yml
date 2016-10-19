@@ -1,0 +1,11 @@
+# Site settings
+title: SPb Python Interest Group
+email: your-email@domain.com
+description: Добро пожаловать в SPb Python Interest Group — Сообщество Python-программистов Санкт-Петербурга. Здесь вы найдёте ссылки на нашу онлайн и оффлайн жизнь.
+baseurl: ""
+url: "https://spbpython.github.io"
+twitter_username: spbpython
+github_username:  spbpython
+
+# Build settings
+markdown: kramdown

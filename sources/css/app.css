@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+
+}
+
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: .2em
+}
+
+p {
+  font-size: 1.25em;
+}
+
+a {
+  color: #fff;
+}
+
+.forkme {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 149px;
+    height: 149px;
+}
+.forkme img{
+ width: 100%;
+ height: 100%;
+}
+
+
+/* Centered texts in each section
+* --------------------------------------- */
+
+.section {
+  text-align: center;
+  background-size: cover;
+}
+.slide {
+  background-size: cover;
+}
+
+.intro {
+  width: 100%;
+  padding: 30px 0 50px 0;
+  background-color: rgba(0,0,0,.25);
+  text-shadow: 0.1em 0.1em 0.2em #000;
+}
+
+/* Overwriting styles for control arrows for slides
+* --------------------------------------- */
+.controlArrow.prev {
+  left: 50px;
+}
+
+.controlArrow.next{
+  right: 50px;
+}
+
+#section-first {
+  background-image: url(../images/backgrounds/spb1.jpg);
+}
+#section-second {
+  background-image: url(../images/backgrounds/spb2.jpg);
+}
+#section-third {
+  background-image: url(../images/backgrounds/spb3.jpg);
+}
+
+
+.meetup {
+  width: 150px;
+}
+.telegram {
+  width: 150px;
+  margin-left: 30px;
+}
+.google-plus {
+  width: 150px;
+}

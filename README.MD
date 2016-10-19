@@ -1,6 +1,6 @@
-# SPb Python Guru 
+# SPb Python Interest Group
 
-SPb Python Guru — Сообщество Python-программистов Санкт-Петербурга.
+SPb Python Interest Group — Сообщество Python-программистов Санкт-Петербурга.
 
 ## Встречи в оффлайне
 
