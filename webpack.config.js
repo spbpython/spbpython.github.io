@@ -2,9 +2,9 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var path = require('path');
 
 module.exports = {
-    entry: "./sources/assets/js/main.js",
+    entry: "./assets/js/main.js",
     output: {
-        path: path.resolve(__dirname, "sources/bundles"),
+        path: path.resolve(__dirname, "bundles"),
         filename: "app.js"
     },
     module: {

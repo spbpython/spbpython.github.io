@@ -9,3 +9,5 @@ github_username:  spbpython
 
 # Build settings
 markdown: kramdown
+exclude:
+  - node_modules

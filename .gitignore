@@ -109,4 +109,4 @@ target/
 # Frontend
 node_modules/
 
-sources/_site/
+_site/
