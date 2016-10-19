@@ -1,8 +1,9 @@
 import $ from 'jquery'
 import '../css/normalize.css'
+import 'css-skeleton'
 import 'fullpage.js'
-//require('fullpage.js/jquery.fullPage.css');
-import 'skeleton-css'
+import 'fullpage.js/dist/jquery.fullPage.css'
+
 import '../css/main.css'
 
 $(document).ready(function () {
