@@ -1577,7 +1577,12 @@ a {
   background-color: rgba(0,0,0,.25);
   text-shadow: 0.1em 0.1em 0.2em #000;
 }
-
+.logo {
+    width: 240px;
+    height: 150px;
+    background: url(801c4a64caa3ae850ff53467d0680732.svg) no-repeat;
+    display: inline-block;
+}
 /* Overwriting styles for control arrows for slides
 * --------------------------------------- */
 .controlArrow.prev {

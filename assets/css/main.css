@@ -55,7 +55,12 @@ a {
   background-color: rgba(0,0,0,.25);
   text-shadow: 0.1em 0.1em 0.2em #000;
 }
-
+.logo {
+    width: 240px;
+    height: 150px;
+    background: url(../images/logo.svg) no-repeat;
+    display: inline-block;
+}
 /* Overwriting styles for control arrows for slides
 * --------------------------------------- */
 .controlArrow.prev {

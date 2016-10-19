@@ -11,3 +11,8 @@ github_username:  spbpython
 markdown: kramdown
 exclude:
   - node_modules
+  - webpack.config.js
+  - package.json
+  - Dockerfile
+  - docker-compose.yml
+  - assets
