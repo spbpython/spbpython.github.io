@@ -27,16 +27,14 @@ a {
 }
 
 .forkme {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 149px;
-    height: 149px;
-}
-.forkme img{
- width: 100%;
- height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 149px;
+  height: 149px;
+  background-image: url(../images/networks/forkme.png);
+  background-size: 149px;
 }
 
 
@@ -79,13 +77,24 @@ a {
 }
 
 
-.meetup {
+.network-icon {
   width: 150px;
+  background-size: 150px;
+  display: inline-block;
+  height: 150px;
+}
+
+.meetup {
+  background-image: url(../images/networks/meetup.png);
+  height: 150px;
+  display: inline-block;
+  width: 200px;
+  background-size: 200px;
 }
 .telegram {
-  width: 150px;
   margin-left: 30px;
+  background-image: url(../images/networks/telegram.png);
 }
 .google-plus {
-  width: 150px;
+  background-image: url(../images/networks/google-plus.png);
 }
