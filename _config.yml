@@ -9,10 +9,11 @@ github_username:  spbpython
 
 # Build settings
 markdown: kramdown
+
 exclude:
   - node_modules
   - webpack.config.js
   - package.json
   - Dockerfile
   - docker-compose.yml
-  - assets
+  - sources

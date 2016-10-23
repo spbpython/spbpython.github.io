@@ -1,4 +1,8 @@
-<script src='{{ "/bundles/app.js" | prepend: site.baseurl }}'></script>
+{% if site.environment == 'dev' %}
+<link rel="stylesheet" href='{{ "http://localhost:8080/webpack-dev-server/app.js" }}'>
+{% else %}
+<script src='{{ "assets/app.js" | prepend: site.baseurl }}'></script>
+{% endif %}
 
 <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
