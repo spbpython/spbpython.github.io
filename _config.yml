@@ -1,5 +1,5 @@
 ---
-theme: jekyll-theme-leap-day
+theme: minima
 author: SPb Python
 github_username: spbpython
 gems:
