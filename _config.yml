@@ -1,1 +1,9 @@
-theme: jekyll-theme-leap-day
+---
+theme: leap-day
+author: SPb Python
+github_username: spbpython
+gems:
+- jekyll-optional-front-matter
+- jekyll-readme-index
+- jekyll-titles-from-headings
+...
