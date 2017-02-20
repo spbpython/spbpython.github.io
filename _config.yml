@@ -1,5 +1,5 @@
 ---
-theme: leap-day
+theme: jekyll-theme-leap-day
 author: SPb Python
 github_username: spbpython
 gems:
