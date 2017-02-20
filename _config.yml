@@ -1,7 +1,8 @@
 ---
 theme: jekyll-theme-leap-day
-author: SPb Python
-github_username: spbpython
+site:
+  title: SPb Python
+  description: Сообщество Python-программистов Санкт-Петербурга
 gems:
 - jekyll-optional-front-matter
 - jekyll-readme-index

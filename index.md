@@ -1,7 +1,3 @@
-# SPb Python Interest Group
-
-Сообщество Python-программистов Санкт-Петербурга
-
 [![SPb Python on Meetup](/img/social/meetup.png)](https://www.meetup.com/spbpython/)
 [![@spbpython on Telegram](/img/social/telegram.png)](https://t.me/spbpython)
 [![@spbpython on Twitter](/img/social/twitter.png)](https://twitter.com/spbpython)
