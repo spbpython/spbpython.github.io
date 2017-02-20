@@ -1,3 +1,7 @@
+---
+title: Оганизаторы
+---
+
 # Организаторы сообщества SPb Python
 
 * @lig — main coordinator
