@@ -2,4 +2,7 @@
 
 [Current version](http://spbpython.guru/)
 
-[Index in the repo](/index.md)
+## Generate
+
+    pip install -r requirements.txt
+    make html

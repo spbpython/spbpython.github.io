@@ -1,0 +1,6 @@
+[submodule "pure"]
+	path = pure
+	url = https://github.com/PurePelicanTheme/pure
+[submodule "pelican-chameleon"]
+	path = pelican-chameleon
+	url = https://github.com/yuex/pelican-chameleon

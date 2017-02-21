@@ -1,8 +1,6 @@
----
-title: Оганизаторы
----
-
-# Организаторы сообщества SPb Python
+Title: Организаторы сообщества
+Slug: orgs
+sortorder: 0020
 
 * @lig — main coordinator
 * @nazarov-tech — community manager
